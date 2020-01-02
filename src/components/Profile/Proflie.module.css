@@ -1,0 +1,10 @@
+.profile {
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(191, 205, 222, 0.75);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}

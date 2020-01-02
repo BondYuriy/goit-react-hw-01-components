@@ -1,0 +1,27 @@
+.status {
+  display: block;
+  flex: 0 0 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ff5153;
+  margin-right: 15px;
+}
+
+.active {
+  composes: status;
+  background-color: #42b247;
+}
+
+.avatar {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 500;
+}

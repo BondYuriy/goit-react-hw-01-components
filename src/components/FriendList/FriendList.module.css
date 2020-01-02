@@ -1,0 +1,19 @@
+.list {
+  padding: 0;
+  list-style: none;
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+.item {
+  box-shadow: 0 1px 3px rgba(191, 205, 222, 0.75);
+  background-color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}

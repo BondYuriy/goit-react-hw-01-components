@@ -1,0 +1,44 @@
+.transaction {
+  border-spacing: 0;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+
+.transaction thead {
+  border: 0;
+  height: 50px;
+  background-color: #00bcd4;
+}
+
+.transaction thead tr th {
+  padding: 0;
+  width: 290px;
+  height: 50px;
+  border-right: 1px solid #e0e6e7;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.transaction thead tr th:last-child {
+  border-right: 0;
+}
+
+.transaction tbody tr:nth-child(even) {
+  background-color: #ecf2f3;
+}
+
+.transaction tbody tr td {
+  height: 50px;
+  border-right: 1px solid #e0e6e7;
+  color: #5c6975;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.transaction tbody tr td:last-child {
+  border-right: 0;
+}

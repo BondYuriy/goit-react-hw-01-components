@@ -1,0 +1,33 @@
+.description {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.avatar {
+  display: block;
+  width: 99px;
+  height: 99px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 30px auto;
+}
+
+.name {
+  margin: 0;
+  color: #122236;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+
+.tag,
+.location {
+  margin: 0;
+  color: #768696;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.tag {
+  margin-bottom: 11px;
+}
