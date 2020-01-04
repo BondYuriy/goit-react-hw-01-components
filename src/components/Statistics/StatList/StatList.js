@@ -20,8 +20,13 @@ const StatList = ({ stats }) => {
 };
 
 StatList.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  stats: PropTypes.array.isRequired,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      percentage: PropTypes.number.isRequired,
+      label: PropTypes.string.isRequired,
+      id: PropTypes.string.isRequired,
+    }).isRequired,
+  ).isRequired,
 };
 
 export default StatList;

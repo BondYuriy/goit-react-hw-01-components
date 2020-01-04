@@ -15,7 +15,6 @@ const Profile = ({ user }) => (
 Stats.propTypes = {
   user: PropTypes.shape({
     avatar: PropTypes.string.isRequired,
-    alt: PropTypes.string,
     name: PropTypes.string.isRequired,
     tag: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
